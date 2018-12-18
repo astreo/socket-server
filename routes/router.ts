@@ -5,7 +5,7 @@ const router = Router();
 router.get('/mensajes', (req: Request, res: Response) => {
     res.json({
         ok: true,
-        mensaje: 'Todo está bien'
+        mensaje: 'Todo está OK'
     });
 });
 
