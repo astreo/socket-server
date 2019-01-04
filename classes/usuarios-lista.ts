@@ -26,7 +26,7 @@ export class UsuariosLista {
 
   // Obtener Lista de usuarios
   public getLista() {
-      return this.lista;
+      return this.lista.filter(usuario => usuario.nombre !== 'Anonymous');
   }
 
   // Obtener Usuario a partir del Id
